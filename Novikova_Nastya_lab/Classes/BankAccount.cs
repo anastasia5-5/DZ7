@@ -65,7 +65,7 @@ namespace Novikova_Nastya_lab
         {
             if (amount <= 0)
             {
-                Console.WriteLine("Сумма перевода должна быть большеке 0");
+                Console.WriteLine("Сумма перевода должна быть больше 0");
                 return;
             }
             if (amount > Balance)

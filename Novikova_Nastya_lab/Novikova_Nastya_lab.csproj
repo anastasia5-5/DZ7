@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\BankAccount.cs" />
+    <Compile Include="Classes\Song.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -51,8 +52,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="inputfile.txt.txt" />
+    <Content Include="inputfile.txt" />
     <Content Include="output.txt" />
+    <Content Include="input.txt" />
+    <Content Include="outputfile.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

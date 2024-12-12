@@ -11,6 +11,7 @@ namespace Novikova_Nastya
         static void Main(string[] args)
         {
 
+
         }
 
     }
